@@ -13,7 +13,7 @@ endif
 let g:colors_name = "goldenrod"
 
 function <SID>set_color(name, fg, bg, ct)
-    exe 'highlight ' . a:name . 'ctermfg=' . a:fg . ' ctermbg=' . a:bg . ' cterm=' . a:ct
+    exe 'highlight ' . a:name . ' ctermfg=' . a:fg . ' ctermbg=' . a:bg . ' cterm=' . a:ct
 endfunction
 
 let color1 = '40'
