@@ -1,6 +1,5 @@
 " Name: goldenrod
 " Author: John Black
-
 "" local syntax file - set colors on a per-machine basis:
 "" vim: tw=0 ts=4 sw=4
 
@@ -84,3 +83,4 @@ call <SID>set_color("Todo", color3, search, "bold")
 call <SID>set_color("Type", color6, "NONE", "NONE")
 call <SID>set_color("Visual", "NONE", color12, "NONE")
 
+delf <SID>set_color
