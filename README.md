@@ -8,7 +8,7 @@ Vim color scheme with plenty of contrast and easy on the eyes
 ### Installation instructions using Vundle:
 - Add the following line to your vimrc:
 ```VimL
-Plugin 'tomasr/molokai'
+Plugin 'acoustichero/goldenrod.vim'
 ```
 
 - Open vim and run `:PluginInstall`
