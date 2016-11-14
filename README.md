@@ -1,7 +1,7 @@
 # goldenrod.vim
 Vim color scheme with plenty of contrast and easy on the eyes
 
-### Installation instructions on linux/mac
+### Installation instructions on linux/mac:
 - Clone the repo or download the tarball and unpack it
 - Copy/move the `colors/goldenrod.vim` file to the vim colors directory: `~/.vim/colors/`
 
