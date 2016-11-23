@@ -16,19 +16,37 @@ function <SID>set_color(name, fg, bg, ct)
     exe 'highlight ' . a:name . ' ctermfg=' . a:fg . ' ctermbg=' . a:bg . ' cterm=' . a:ct
 endfunction
 
+" Green
 let color1 = '40'
+" Magenta
 let color3 = '197'
+" Light Blue
 let color6 = '45'
+" Yellow
 let color5 = '220'
-let color2 = '243'
+
+" Gray
+let color2 = '245'
+" Dark Gray
 let color4 = '233'
+
+" light minty green
 let color8 = '119'
+" strings - beige
 let color14 = '185'
+
+" Blue
 let color9 = '33'
+
+" Black
 let color10 = '232'
+" lighter Black
 let color11 = '235'
+" darkish gray
 let color12 = '236'
+" Cyan
 let color13 = '51'
+" another gray
 let color15 = '242'
 
 let diffcolor1 = '237'
@@ -79,7 +97,7 @@ call <SID>set_color("String", color14, "NONE", "NONE")
 call <SID>set_color("TabLineFill", white, color11, "NONE")
 call <SID>set_color("TabLineSel", white, black, "NONE")
 call <SID>set_color("TabLine", white, color15, "NONE")
-call <SID>set_color("Todo", color3, search, "bold")
+call <SID>set_color("Todo", white, "NONE", "bold")
 call <SID>set_color("Type", color6, "NONE", "NONE")
 call <SID>set_color("Visual", "NONE", color12, "NONE")
 
